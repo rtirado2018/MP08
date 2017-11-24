@@ -1,0 +1,310 @@
+
+      body{
+        margin:0;
+        padding:0;
+        background-color: #e6e8eb;
+        }
+
+
+        #barra{
+          width:100%;
+          height:43px;
+          background-color: #3B5998;
+          position:fixed;
+          top:0;
+          left:0;
+          right:0;
+          z-index:1000;
+
+
+        }
+
+        #contenidor{
+          width: 852px;
+          background-color: #FFF;
+          margin:0 auto;
+          margin-top:0px;
+          border-top: solid 2px #e6e8eb;
+
+        }
+
+        #cap{
+          height: 307px;
+          background-image: url(img/cap.jpg);
+          background-repeat: no-repeat;
+
+            }
+
+          #nom{
+            margin=0;
+            width: =320px;
+            position:relative;
+            top:256px;
+            left:200px;
+            color:#FFF;
+            font-family:Lucida Grande, Segoe UI, Tahoma, San Francisco;
+            text-shadow: 0 0 2px #000;
+          }
+
+
+          #fotoperfil{
+            background-color: #000;
+            border: solid white 3px;
+            border-radius: 4px;
+            position:relative;
+            left:20px;
+            top:118px;
+            height: 160px;
+            width: 160px;
+            box-shadow: 0 0 1px #333;
+          }
+
+          #menu{
+            height: 44px;
+            background-color: #e6e8eb;
+            padding:0;
+            margin: 0 0 0 186px;
+            width: 500px;
+            }
+
+          #menu li {
+            float:left;
+            padding:0 18px;
+            display:block;
+            font-weight: bold;
+            color:#334f8d;
+            font-family: Lucida Grande, Segoe UI, Tahoma, San Francisco;
+            height: 44px;
+            background-color: #FFF;
+            margin:0 0 0 1px;
+            line-height: 44px;
+            }
+
+            #menu li:hover{
+              color:#000;
+              background-image:url(/img/select.gif);
+              background-repeat:no-repeat;
+              background-position:48% 37px;
+
+              }
+
+              #contingut{
+                margin:0 auto;
+              }
+
+
+              .esquerra{
+                width: 323px;
+                margin:10px 0;
+                background-color: #FFF;
+                border: solid 1px #AAA;
+
+              }
+
+              .esquerra h4{
+
+                padding:5px;
+                height: 15px;
+                font-weight: bold;
+                font-size: 18px;
+                font-family: Lucida Grande, Segoe UI, Tahoma, San Francisco;
+                color: #334f8d;
+                text-indent: 18px;
+                background-image:url(img/lateral.png);
+                background-repeat:no-repeat;
+
+
+                }
+
+                #fotos h4{
+                  background-position: 0 -24px;
+
+                }
+
+                #amics h4{
+                  background-position: 0 -48px;
+                }
+
+                #amics li{
+                  display: block;
+                  font-family: Lucida Grande, Segoe UI, Tahoma, San Francisco;
+                  color:#334f8d;
+                  }
+
+                  #presentacio li{
+                    display: block;
+                    height: 30px;
+                    border-bottom: solid 1px grey;
+                    font-size: 12px;
+                    line-height: 30px;
+                    font-family: Lucida Grande, Segoe UI, Tahoma, San Francisco;
+                  }
+
+                  #presentacio .estudis{
+                    background-image: url(img/studis.png);
+                    background-repeat:no-repeat;
+                    text-indent: 15px;
+
+                  }
+
+                  #presentacio .feina{
+                    background-image: url(img/icones_feina.png);
+                    background-repeat:no-repeat;
+                    text-indent: 15px;
+                  }
+
+                  #presentacio .relacio{
+                    background-image: url(img/cor.png);
+                    background-repeat:no-repeat;
+                    text-indent: 15px;
+                  }
+
+                  #presentacio .esdeveniment{
+                    background-image: url(img/icones_esdeveniments.png);
+                    background-repeat:no-repeat;
+                    text-indent: 15px;
+                  }
+
+                  #presentacio .rss{
+                    background-image: url(img/icones_rss.png);
+                    background-repeat:no-repeat;
+                    text-indent: 15px;
+                  }
+
+                  #fotos ul li{
+                    display:block;
+                    width:30%;
+                    height: 99px;
+                    margin:4px;
+                    float:left;
+                    background-color:yellow;
+                    background-size: 99px 99px;
+                    color: transparent;
+                  }
+
+                  #fotos ul{
+                    overflow:hidden;
+                    padding: 0;
+                    position:relative;
+                    top: -20px;
+                  }
+
+                  #f1{
+                    background-image:url(img/f1.jpeg);
+                    background-repeat: no-repeat;
+                  }
+
+                  #f2{
+                    background-image:url(img/f2.jpeg);
+                    background-repeat: no-repeat;
+                  }
+
+                  #f3{
+                    background-image:url(img/f3.jpeg);
+                    background-repeat: no-repeat;
+                  }
+
+                  #f4{
+                    background-image:url(img/f4.jpeg);
+                    background-repeat: no-repeat;
+                  }
+
+                  #f5{
+                    background-image:url(img/f5.jpg);
+                    background-repeat: no-repeat;
+                  }
+
+                  #f6{
+                    background-image:url(img/f6.jpeg);
+                    background-repeat: no-repeat;
+                  }
+
+                  #f7{
+                    background-image:url(img/f7.jpeg);
+                    background-repeat: no-repeat;
+                  }
+
+                  #f8{
+                    background-image:url(img/f8.jpg);
+                    background-repeat: no-repeat;
+                  }
+
+                  #f9{
+                    background-image:url(img/f9.jpg);
+                    background-repeat: no-repeat;
+                  }
+
+                    #amics ul li{
+                      display:block;
+                      width:30%;
+                      height: 99px;
+                      margin:4px;
+                      float:left;
+                      background-color:yellow;
+                      background-size: 99px 99px;
+                      color: white;
+                      line-height: 178px;
+                      text-indent: 5px;
+                      text-shadow: 0 0 2px #000;
+                    }
+
+                    #amics ul{
+                      overflow:hidden;
+                      padding: 0;
+                      position:relative;
+                      top: -20px;
+                    }
+
+                  #a1{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
+
+                  #a2{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
+
+                  #a3{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
+
+                  #a4{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
+
+                  #a5{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
+
+                  #a6{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
+
+                  #a7{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
+
+                  #a8{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
+
+                  #a9{
+                    background-image: url(img/perfil.jpg);
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                  }
