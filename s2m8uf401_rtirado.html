@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>media query</title>
+</head>
+<style>
+/*escritorio */
+@media screen and (min-width: 721px){ /*pantalla grande :magenta*/
+  body{
+    background-color: magenta;
+  }
+}
+
+@media screen and (max-width: 720px){/*pantalla pequeña :azul*/
+  body{
+    background-color: blue;
+  }
+}
+
+
+/*movil */
+@media screen and (min-width:481px) and (orientation: portrait){ /*movil vertical:amarillo*/
+  body{
+    background-color:yellow;
+  }
+}
+
+@media screen and (max-width:480px) and (orientation: landscape){ /*movil horizontal:verde*/
+  body{
+    background-color:green;
+  }
+}
+
+</style>
+<body>
+
+</body>
+</html>
